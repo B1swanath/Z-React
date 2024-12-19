@@ -17,7 +17,7 @@ function Signup() {
         <form action="">
             <label className='sign_label' for="fname">Email address</label>            <br />
             <input className='sign_input' type="text" placeholder='name@domain.com'/>  <br />
-            <Link className='sign_phone' to='/'>Use phone number instead.</Link>       <br />
+            <Link className='sign_phone' to='/Z-React'>Use phone number instead.</Link>       <br />
             <Link to='/dashboard'><button className='signup_btn'>Next</button></Link>  <br />
         </form>
 
@@ -49,7 +49,7 @@ function Signup() {
         </div>
         <hr />
 
-        <p className='signup_login' >Already have an account? <Link className='signup_login2' to='/'>Log in here.</Link></p>
+        <p className='signup_login' >Already have an account? <Link className='signup_login2' to='/Z-React'>Log in here.</Link></p>
       </div>
     </div>
   )
